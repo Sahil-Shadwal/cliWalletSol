@@ -25,3 +25,6 @@ npx tsc
 node dist/cli/index.js
 ```
 ## [Documentation](https://best-alloy-a42.notion.site/cli-Wallet-14602ca1e22080e9b77ae3c8ef08f3c9)
+## DEMO:
+![image](https://github.com/user-attachments/assets/47dc6063-aeae-47c0-9730-3f5fc833b488)
+
