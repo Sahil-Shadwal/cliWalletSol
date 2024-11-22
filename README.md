@@ -24,3 +24,4 @@ npm install
 npx tsc
 node dist/cli/index.js
 ```
+## [Documentation](https://best-alloy-a42.notion.site/cli-Wallet-14602ca1e22080e9b77ae3c8ef08f3c9)
