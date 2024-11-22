@@ -6,7 +6,7 @@ import { Connection, PublicKey } from "@solana/web3.js";
 
 async function main() {
   const connection = new Connection(
-    "https://api.mainnet-beta.solana.com",
+    "https://api.devnet.solana.com",
     "confirmed"
   );
   const rl = setupReadline();
