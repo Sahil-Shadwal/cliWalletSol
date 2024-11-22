@@ -1,9 +1,14 @@
 import { Keypair } from "@solana/web3.js";
+import { styles } from "../util/styling";
 
 export function generateKeypair(): Keypair {
   const keypair = Keypair.generate();
-  console.log("Generated new keypair:");
-  console.log("Public Key:", keypair.publicKey.toBase58());
-  console.log("Private Key:", keypair.secretKey.toString());
+  console.log(styles.info("\n🔑 Generated new keypair:"));
+  console.log(
+    styles.keypairInfo(
+      keypair.publicKey.toBase58(),
+      keypair.secretKey.toString()
+    )
+  );
   return keypair;
 }
